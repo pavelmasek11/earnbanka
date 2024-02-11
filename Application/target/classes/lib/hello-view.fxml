@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+
+<BorderPane fx:id="bp" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.application.HomeController">
+   <left>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="173.0" style="-fx-background-color: #37306B;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btn1" minHeight="50.0" minWidth="104.0" mnemonicParsing="false" onMouseClicked="#Home" prefHeight="50.0" prefWidth="115.0" style="-fx-background-color: linear-gradient(to bottom left, #f78361, #f54b64); " text="Home">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" minHeight="50.0" minWidth="104.0" mnemonicParsing="false" onMouseClicked="#Items" prefHeight="50.0" prefWidth="115.0" style="-fx-background-color: linear-gradient(to bottom left, #f78361, #f54b64); " text="Items">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" minHeight="50.0" minWidth="104.0" mnemonicParsing="false" onMouseClicked="#Overview" prefHeight="50.0" prefWidth="115.0" style="-fx-background-color: linear-gradient(to bottom left, #f78361, #f54b64); " text="Overview">
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" minHeight="50.0" minWidth="104.0" mnemonicParsing="false" onMouseClicked="#Calc" prefHeight="50.0" prefWidth="115.0" style="-fx-background-color: linear-gradient(to bottom left, #f78361, #f54b64); " text="Calculator">
+
+               <VBox.margin>
+                  <Insets top="20.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="381.0" style="-fx-background-color: #635985;" BorderPane.alignment="CENTER">
+
+         <children>
+            <Text layoutX="26.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EarnBank">
+               <font>
+                  <Font name="Arial Bold" size="45.0" />
+               </font>
+            </Text>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#37306B" height="123.0" layoutX="37.0" layoutY="244.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#37306B" height="123.0" layoutX="233.0" layoutY="244.0" stroke="BLACK" strokeType="INSIDE" width="161.0" />
+            <Text layoutX="26.0" layoutY="90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Vítejte zpět uživateli">
+               <font>
+                  <Font name="Arial" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="102.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Saved" />
+            <Text layoutX="285.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Remaining" />
+            <Text layoutX="60.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$ -" />
+            <Text layoutX="254.0" layoutY="310.0" strokeType="OUTSIDE" strokeWidth="0.0" text="\$ -" />
+
+            <Button fx:id="btn5" layoutX="174.0" layoutY="151.0" mnemonicParsing="false" onMouseClicked="#Start" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #37306B;" text="Start" textFill="black" />
+
+         </children></AnchorPane>
+   </center>
+</BorderPane>
+
